@@ -15,6 +15,6 @@
 
 let yourName;
 do {
-    yourName = "Morgan"
+    yourName = "today"
 } while (!yourName);
 console.log(yourName);
