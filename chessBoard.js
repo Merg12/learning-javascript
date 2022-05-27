@@ -21,7 +21,7 @@
 // }
 //     console.log(evenRow + "\n");
 
-let count = 0, size = 16, oddRow = "", evenRow = "";
+let count = 0, size = 8, oddRow = "", evenRow = "";
 
 while (count < size) {
     let spaceFirstHash = " #", hashFirstSpace = "# ";
@@ -33,3 +33,20 @@ while (count < size) {
 for (let count = 0; count < size/2; count++) {
     console.log(oddRow + "\n" + evenRow);    
 }
+
+// book answer
+// var size = 8;
+
+// var board = "";
+
+// for (var y = 0; y < size; y++) {
+//   for (var x = 0; x < size; x++) {
+//     if ((x + y) % 2 == 0)
+//       board += " ";
+//     else
+//       board += "#";
+//   }
+//   board += "\n";
+// }
+
+// console.log(board);

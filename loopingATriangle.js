@@ -8,3 +8,7 @@ let hashtag = "#";
 for (let result = ""; result.length <= 7; result += hashtag) {
     console.log(result);
 }
+
+// book answer
+// for (var line = "#"; line.length < 8; line += "#")
+//   console.log(line);
