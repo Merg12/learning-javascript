@@ -6,7 +6,7 @@
 function wrapValue(n) {
     let local = n;
     let twicelocal = 2 * n
-    return () => 2 * n;
+    return () => local;
     };
 
 let wrap1 = wrapValue(1);
