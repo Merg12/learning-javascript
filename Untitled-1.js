@@ -79,4 +79,20 @@
 //         console.log("Buzz");
 //     } else {console.log(count);}
         
+<<<<<<< HEAD
 //     }
+=======
+//     }
+
+return a function
+
+function createFunction() {
+    return function() {
+        console.log("hello");
+    }
+}
+
+// UNCOMMENT THESE TO TEST YOUR WORK!
+const function1 = createFunction();
+function1();
+>>>>>>> 6e6c424458f6c06bb5c65d30e22ed4b240c10ca9
