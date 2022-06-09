@@ -1,0 +1,1 @@
+console.log(Math.min(2,4) + 10);
