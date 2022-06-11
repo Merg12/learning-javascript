@@ -13,16 +13,28 @@ if(N != "B") {}
 need a counter
 */
 
-function countBs(N) {
-    let word = String(N);
+// function countBs(N) {
+//     let word = String(N);
+//     let numberOfBs = 0;
+//     for (count = 0; count < word.length; count ++) {
+//         if(word[count] == "B") {
+//             numberOfBs = numberOfBs + 1;
+//         }
+//     }
+//     return numberOfBs;
+// }
+    
+// console.log(countBs("BaBBBBBBAaB"));
+
+function countChar(word, char) {
+    let newWord = String(word);
     let numberOfBs = 0;
-    for (count = 0; count < word.length; count ++) {
-        if("string"[count] == "B") {
+    for (let count = 0; count < newWord.length; count++) {
+        if(newWord[count] == char) {
             numberOfBs = numberOfBs + 1;
-        } else if("string"[count] != "B") {
-
-            }
-        }
+        }       
     }
+    return numberOfBs;
+}
 
-countBs("BaBaB")
+console.log(countChar("TaTTkdfTTTSDf", "T"));
