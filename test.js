@@ -80,3 +80,5 @@
 //     } else {console.log(count);}
         
 //     }
+
+console.log("slice this line \n in half");
