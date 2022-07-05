@@ -81,4 +81,4 @@
         
 //     }
 
-console.log("slice this line \n in half");
+console.log("We're going to put this line on top\nand this line below by using \" the Newlines escape");
