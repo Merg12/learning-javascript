@@ -77,8 +77,7 @@
 //         console.log("Fizz");
 //     } else if (count % 5 == 0) {
 //         console.log("Buzz");
-//     } else {console.log(count);}
-        
-//     }
+//     } else {console.log(count);}     
+// }
 
-console.log("We're going to put this line on top\nand this line below by using \" the Newlines escape");
+console.log("this one is really \\\n\"\\n\" complicated, just give up");
