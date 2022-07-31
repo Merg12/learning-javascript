@@ -1,1 +1,1 @@
-console.log(NaN != NaN);
+console.log(false && false);
